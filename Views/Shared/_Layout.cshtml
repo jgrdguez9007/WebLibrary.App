@@ -1,49 +1,98 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+@{
+    var title = (ViewData["Title"] as string) ?? "Biblioteca Web";
+}
+<!DOCTYPE html>
+<html lang="es" class="h-full">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebLibrary.App</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/WebLibrary.App.styles.css" asp-append-version="true" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>@title · Biblioteca Web</title>
+
+  <!-- Tailwind compilado -->
+  <link rel="stylesheet" href="~/css/bundle.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebLibrary.App</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-800 antialiased">
+
+  <!-- NAV -->
+  <header x-data="{laws:false, mobile:false}"
+          class="sticky top-0 z-40 border-b bg-white/80 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="@Url.Content("~")" class="font-bold text-lg tracking-tight">
+        Biblioteca Web
+      </a>
+
+      <!-- Desktop -->
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="hover:text-indigo-600 transition" href="@Url.Action("Index","Home")">Inicio</a>
+
+        <!-- Leyes dropdown -->
+        <div class="relative">
+          <button x-on:click="laws=!laws"
+                  class="inline-flex items-center gap-1 hover:text-indigo-600 transition">
+            Leyes
+            <svg class="w-4 h-4 opacity-70" viewBox="0 0 20 20" fill="currentColor"><path d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"/></svg>
+          </button>
+          <div x-cloak x-show="laws" x-transition
+               class="absolute left-0 mt-2 w-64 rounded-xl border bg-white shadow-lg ring-1 ring-black/5 p-2">
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=ley">Ley</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=decreto-ley">Decreto-ley</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=decreto">Decreto</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=reglamento">Reglamento</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=resolucion">Resolución</a>
+          </div>
+        </div>
+
+        <a class="hover:text-indigo-600 transition" href="/docs?cat=documentos-internos">Documentos Internos</a>
+        <a class="hover:text-indigo-600 transition" href="/docs?cat=memorias-anuales">Memorias Anuales</a>
+        <a class="hover:text-indigo-600 transition" href="/docs?cat=estudios">Estudios</a>
+        <a class="hover:text-indigo-600 transition" href="/docs?cat=procedimientos">Procedimientos</a>
+      </nav>
+
+      <!-- Mobile toggle -->
+      <button class="md:hidden inline-flex items-center justify-center rounded-lg p-2 hover:bg-slate-100"
+              x-on:click="mobile=!mobile" aria-label="Abrir menú">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - WebLibrary.App - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <!-- Mobile menu -->
+    <div x-cloak x-show="mobile" x-transition class="md:hidden border-t bg-white">
+      <div class="px-4 py-3 space-y-2 text-sm">
+        <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="@Url.Action("Index","Home")">Inicio</a>
+        <details class="px-1">
+          <summary class="px-2 py-2 rounded-lg hover:bg-slate-50 cursor-pointer">Leyes</summary>
+          <div class="mt-1 ml-3 space-y-1">
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=ley">Ley</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=decreto-ley">Decreto-ley</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=decreto">Decreto</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=reglamento">Reglamento</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=leyes&type=resolucion">Resolución</a>
+          </div>
+        </details>
+        <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=documentos-internos">Documentos Internos</a>
+        <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=memorias-anuales">Memorias Anuales</a>
+        <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=estudios">Estudios</a>
+        <a class="block px-3 py-2 rounded-lg hover:bg-slate-50" href="/docs?cat=procedimientos">Procedimientos</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+    @RenderBody()
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t py-6">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-sm text-slate-500">
+      © @DateTime.Now.Year · Biblioteca Web
+    </div>
+  </footer>
+
+  <!-- JS para interacciones -->
+  <script src="https://unpkg.com/alpinejs" defer></script>
+  <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+
+  @RenderSection("Scripts", required: false)
 </body>
 </html>

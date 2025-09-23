@@ -48,6 +48,56 @@
           }
         }
       },
+      "Lucene.Net.Queries/4.8.0-beta00016": {
+        "type": "package",
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00016"
+        },
+        "compile": {
+          "lib/net6.0/Lucene.Net.Queries.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Lucene.Net.Queries.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Lucene.Net.QueryParser/4.8.0-beta00016": {
+        "type": "package",
+        "dependencies": {
+          "Lucene.Net.Analysis.Common": "4.8.0-beta00016",
+          "Lucene.Net.Queries": "4.8.0-beta00016",
+          "Lucene.Net.Sandbox": "4.8.0-beta00016"
+        },
+        "compile": {
+          "lib/net6.0/Lucene.Net.QueryParser.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Lucene.Net.QueryParser.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Lucene.Net.Sandbox/4.8.0-beta00016": {
+        "type": "package",
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00016"
+        },
+        "compile": {
+          "lib/net6.0/Lucene.Net.Sandbox.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Lucene.Net.Sandbox.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -274,6 +324,72 @@
         "lucene-net-icon-128x128.png",
         "lucene.net.analysis.common.4.8.0-beta00016.nupkg.sha512",
         "lucene.net.analysis.common.nuspec"
+      ]
+    },
+    "Lucene.Net.Queries/4.8.0-beta00016": {
+      "sha512": "XBzdMDlan68V2ZlhAlP8Fd+Xx2Le8ec7cEN1kFF45Sipa3Q8L/tilJfwS9VHvMTvGkwPM/yj62eGbfGBgIMR8Q==",
+      "type": "package",
+      "path": "lucene.net.queries/4.8.0-beta00016",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "lib/net45/Lucene.Net.Queries.dll",
+        "lib/net45/Lucene.Net.Queries.xml",
+        "lib/net6.0/Lucene.Net.Queries.dll",
+        "lib/net6.0/Lucene.Net.Queries.xml",
+        "lib/netstandard2.0/Lucene.Net.Queries.dll",
+        "lib/netstandard2.0/Lucene.Net.Queries.xml",
+        "lib/netstandard2.1/Lucene.Net.Queries.dll",
+        "lib/netstandard2.1/Lucene.Net.Queries.xml",
+        "lucene-net-icon-128x128.png",
+        "lucene.net.queries.4.8.0-beta00016.nupkg.sha512",
+        "lucene.net.queries.nuspec"
+      ]
+    },
+    "Lucene.Net.QueryParser/4.8.0-beta00016": {
+      "sha512": "5dVvjXmzPaK8GD/eblJopTJMQmO6c6fvVPfBIOw46+jyZR+yESkUnWF1LtLoLXZQNrl4Dx8LKdes5G1QAM7eGA==",
+      "type": "package",
+      "path": "lucene.net.queryparser/4.8.0-beta00016",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "lib/net45/Lucene.Net.QueryParser.dll",
+        "lib/net45/Lucene.Net.QueryParser.xml",
+        "lib/net6.0/Lucene.Net.QueryParser.dll",
+        "lib/net6.0/Lucene.Net.QueryParser.xml",
+        "lib/netstandard2.0/Lucene.Net.QueryParser.dll",
+        "lib/netstandard2.0/Lucene.Net.QueryParser.xml",
+        "lib/netstandard2.1/Lucene.Net.QueryParser.dll",
+        "lib/netstandard2.1/Lucene.Net.QueryParser.xml",
+        "lucene-net-icon-128x128.png",
+        "lucene.net.queryparser.4.8.0-beta00016.nupkg.sha512",
+        "lucene.net.queryparser.nuspec"
+      ]
+    },
+    "Lucene.Net.Sandbox/4.8.0-beta00016": {
+      "sha512": "wMsRZtbNx0wvX3mtNjpOwQmKx3Ij4UGHWIYHbvnzMWlPUTgtOpYSj02REL4hOxI71WBZylpGB5EWfQ2eEld63g==",
+      "type": "package",
+      "path": "lucene.net.sandbox/4.8.0-beta00016",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "lib/net45/Lucene.Net.Sandbox.dll",
+        "lib/net45/Lucene.Net.Sandbox.xml",
+        "lib/net6.0/Lucene.Net.Sandbox.dll",
+        "lib/net6.0/Lucene.Net.Sandbox.xml",
+        "lib/netstandard2.0/Lucene.Net.Sandbox.dll",
+        "lib/netstandard2.0/Lucene.Net.Sandbox.xml",
+        "lib/netstandard2.1/Lucene.Net.Sandbox.dll",
+        "lib/netstandard2.1/Lucene.Net.Sandbox.xml",
+        "lucene-net-icon-128x128.png",
+        "lucene.net.sandbox.4.8.0-beta00016.nupkg.sha512",
+        "lucene.net.sandbox.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
@@ -504,6 +620,7 @@
     "net8.0": [
       "Lucene.Net >= 4.8.0-beta00016",
       "Lucene.Net.Analysis.Common >= 4.8.0-beta00016",
+      "Lucene.Net.QueryParser >= 4.8.0-beta00016",
       "Newtonsoft.Json >= 13.0.4",
       "UglyToad.PdfPig >= 1.7.0-custom-5"
     ]
@@ -555,6 +672,10 @@
             "version": "[4.8.0-beta00016, )"
           },
           "Lucene.Net.Analysis.Common": {
+            "target": "Package",
+            "version": "[4.8.0-beta00016, )"
+          },
+          "Lucene.Net.QueryParser": {
             "target": "Package",
             "version": "[4.8.0-beta00016, )"
           },

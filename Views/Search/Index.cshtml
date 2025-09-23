@@ -1,0 +1,71 @@
+@model WebLibrary.App.Controllers.SearchController.SearchVm
+@{
+  ViewData["Title"] = "Buscar";
+}
+<section class="space-y-8">
+  <!-- Buscador -->
+  <form method="get" action="/search" class="flex gap-2">
+    <input name="q" value="@Model.Q" placeholder="Buscar en el contenido…"
+           class="flex-1 rounded-xl border border-slate-300 px-4 py-3"
+           autofocus />
+    <button class="rounded-xl bg-indigo-600 text-white px-5 py-3 hover:bg-indigo-700 transition">
+      Buscar
+    </button>
+  </form>
+
+  @if (!string.IsNullOrWhiteSpace(Model.Q))
+  {
+    <p class="text-sm text-slate-500">
+      @Model.Count resultado@(Model.Count==1?"":"s") en @Model.ElapsedMs ms
+    </p>
+  }
+
+  @if (Model.Results == null || Model.Results.Count == 0)
+  {
+    if (!string.IsNullOrWhiteSpace(Model.Q))
+    {
+      <div class="rounded-2xl border bg-white p-10 text-center text-slate-600">
+        Sin resultados para <strong>@Model.Q</strong>.
+      </div>
+    }
+  }
+  else
+  {
+    <ul class="space-y-5">
+      @foreach (var r in Model.Results)
+      {
+        <li class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+          <div class="flex gap-4">
+            <div class="hidden sm:grid place-items-center w-24 h-24 bg-slate-100 rounded-lg overflow-hidden">
+              <img src="@r.ThumbUrl" alt="Portada" class="max-w-full max-h-full object-contain" />
+            </div>
+            <div class="flex-1">
+              <div class="text-[11px] uppercase tracking-wide text-slate-500">
+                @(string.IsNullOrEmpty(r.Category) ? "" : r.Category.Replace("-", " "))
+                @(string.IsNullOrEmpty(r.DocType) ? "" : " · " + r.DocType.Replace("-", " "))
+                @(r.PageStart>0 ? $" · p.{r.PageStart}-{r.PageEnd}" : "")
+              </div>
+              <h3 class="mt-0.5 font-semibold">
+                @r.Title
+                <span class="ml-2 align-middle text-[10px] text-slate-400">(@Math.Round(r.Score,2))</span>
+              </h3>
+              @if (!string.IsNullOrWhiteSpace(r.Excerpt))
+              {
+                <p class="mt-2 text-sm text-slate-700">@r.Excerpt</p>
+              }
+              <div class="mt-3 flex items-center gap-2">
+                @if (!string.IsNullOrEmpty(r.PdfUrl))
+                {
+                  <a href="@r.PdfUrl" target="_blank"
+                     class="rounded-lg bg-slate-900 text-white px-3 py-1.5 text-sm hover:bg-slate-700">Ver PDF</a>
+                }
+                <a href="@r.JsonUrl" target="_blank"
+                   class="rounded-lg border px-3 py-1.5 text-sm hover:bg-slate-50">JSON</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      }
+    </ul>
+  }
+</section>

@@ -1,0 +1,65 @@
+@model WebLibrary.App.Controllers.DocsController.DocListVm
+@{
+  ViewData["Title"] = "Documentos";
+  var title = string.IsNullOrEmpty(Model.Cat) ? "Documentos" : Model.Cat.Replace("-", " ");
+  var items = Model.Items ?? new List<WebLibrary.App.Controllers.DocsController.DocListItem>();
+}
+<section class="space-y-8">
+  <!-- Cabecera (sin chips: ya están en el menú del layout) -->
+  <div>
+    <h1 class="text-3xl font-bold tracking-tight capitalize">@title</h1>
+    @if (!string.IsNullOrEmpty(Model.Type))
+    {
+      <p class="text-sm text-slate-500">
+        Tipo: <span class="capitalize">@Model.Type.Replace("-", " ")</span>
+      </p>
+    }
+  </div>
+
+  @if (!items.Any())
+  {
+    <div class="rounded-2xl border bg-white p-10 text-center text-slate-600">
+      No hay documentos para esta vista.
+      <div class="mt-2 text-xs">
+        Sube un PDF desde <a href="/admin" class="text-indigo-600 hover:text-indigo-700">/admin</a>.
+      </div>
+    </div>
+  }
+  else
+  {
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      @foreach (var d in items)
+      {
+        <article class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 overflow-hidden hover:shadow-md transition">
+          <!-- Miniatura pequeña, sin recorte -->
+          <div class="h-28 bg-slate-100 border-b grid place-items-center">
+            <img src="@d.ThumbUrl" alt="Portada" class="max-h-full max-w-full object-contain" />
+          </div>
+
+          <div class="p-5">
+            <div class="text-[11px] uppercase tracking-wide text-slate-500">
+              @(string.IsNullOrEmpty(d.Cat) ? "" : d.Cat.Replace("-", " "))
+              @(string.IsNullOrEmpty(d.Type) ? "" : " · " + d.Type.Replace("-", " "))
+            </div>
+
+            <h3 class="mt-1 font-semibold line-clamp-2">@d.Title</h3>
+            @if (d.Date.HasValue)
+            {
+              <p class="mt-1 text-xs text-slate-500">@d.Date.Value.ToString("yyyy-MM-dd")</p>
+            }
+
+            <div class="mt-4 flex items-center gap-2">
+              @if (!string.IsNullOrEmpty(d.PdfUrl))
+              {
+                <a href="@d.PdfUrl" target="_blank"
+                   class="rounded-lg bg-slate-900 text-white px-3 py-2 text-sm hover:bg-slate-700">Ver PDF</a>
+              }
+              <a href="@d.JsonUrl" target="_blank"
+                 class="rounded-lg border px-3 py-2 text-sm hover:bg-slate-50">JSON</a>
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+  }
+</section>
