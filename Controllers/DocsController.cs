@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebLibrary.App.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebLibrary.App.Controllers
 {
@@ -31,6 +32,13 @@ namespace WebLibrary.App.Controllers
         [HttpGet("")]
         public IActionResult Index([FromQuery] string? cat, [FromQuery] string? type)
         {
+            // Protección de "Documentos Internos"
+            if (string.Equals(cat, "documentos-internos", StringComparison.OrdinalIgnoreCase))
+            {
+                if (!(User.IsInRole("Admin") || User.IsInRole("Secretario")))
+                    return Forbid();
+            }
+
             var dataDir = Path.Combine(_env.WebRootPath, "data");
             Directory.CreateDirectory(dataDir);
 
@@ -46,13 +54,13 @@ namespace WebLibrary.App.Controllers
 
                     items.Add(new DocListItem
                     {
-                        Title   = string.IsNullOrWhiteSpace(dj.Title) ? Path.GetFileNameWithoutExtension(jf) : dj.Title,
-                        PdfUrl  = dj.Source ?? "",
+                        Title = string.IsNullOrWhiteSpace(dj.Title) ? Path.GetFileNameWithoutExtension(jf) : dj.Title,
+                        PdfUrl = dj.Source ?? "",
                         JsonUrl = "/data/" + Path.GetFileName(jf),
-                        ThumbUrl= string.IsNullOrEmpty(dj.ThumbUrl) ? "/img/placeholder.svg" : dj.ThumbUrl,
-                        Cat     = dj.Category ?? "",
-                        Type    = dj.DocType ?? "",
-                        Date    = dj.Meta?.DetectedDate ?? System.IO.File.GetLastWriteTime(jf)
+                        ThumbUrl = string.IsNullOrEmpty(dj.ThumbUrl) ? "/img/placeholder.svg" : dj.ThumbUrl,
+                        Cat = dj.Category ?? "",
+                        Type = dj.DocType ?? "",
+                        Date = dj.Meta?.DetectedDate ?? System.IO.File.GetLastWriteTime(jf)
                     });
                 }
                 catch

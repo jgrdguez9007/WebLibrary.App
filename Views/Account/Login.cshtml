@@ -1,0 +1,46 @@
+@model WebLibrary.App.Controllers.AccountController.LoginVm
+@{
+    ViewData["Title"] = "Iniciar sesión";
+}
+<div style="min-height:60vh;display:flex;align-items:center;justify-content:center;">
+  <div class="rounded-2xl shadow-xl" style="width:360px;background:#fff;padding:22px;border:1px solid #e5e7eb;">
+    <h1 class="text-lg font-semibold mb-4 text-slate-800">Iniciar sesión</h1>
+
+    <form asp-action="Login" asp-controller="Account" method="post" class="space-y-4">
+      @Html.AntiForgeryToken()
+      <input type="hidden" asp-for="ReturnUrl" />
+
+      <div>
+        <label class="block text-sm mb-1">Usuario</label>
+        <input asp-for="Username" autocomplete="username"
+               class="w-full border rounded-lg px-3 py-2 focus:outline-none"
+               />
+        <span asp-validation-for="Username" class="text-red-600 text-sm"></span>
+      </div>
+
+      <div>
+        <label class="block text-sm mb-1">Contraseña</label>
+        <input asp-for="Password" type="password" autocomplete="current-password"
+               class="w-full border rounded-lg px-3 py-2 focus:outline-none"
+               />
+        <span asp-validation-for="Password" class="text-red-600 text-sm"></span>
+      </div>
+
+      <label class="inline-flex items-center text-sm">
+        <input asp-for="RememberMe" class="mr-2" />
+        <span>Recordarme</span>
+      </label>
+
+      <div class="flex justify-end gap-2 pt-1">
+        <a href="~/" class="px-4 py-2 rounded-lg border hover:bg-slate-50">Cancelar</a>
+        <button type="submit" class="px-4 py-2 rounded-lg text-white" style="background:#18A052;">
+          Entrar
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+@section Scripts{
+  <partial name="_ValidationScriptsPartial" />
+}

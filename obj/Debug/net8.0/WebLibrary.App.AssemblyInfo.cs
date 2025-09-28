@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebLibrary.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8659bd24b7212ab0a72579ef4afa7f7f8b5335a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d07112fe85b41c44b09c9650dfd4169e9837b331")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebLibrary.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebLibrary.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

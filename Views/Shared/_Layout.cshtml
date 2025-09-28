@@ -1,6 +1,9 @@
 @{
   var title = (ViewData["Title"] as string) ?? "Archivo Digital CNDES";
 }
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 <!DOCTYPE html>
 <html lang="es" class="h-full">
 
@@ -20,13 +23,11 @@
   <header x-data="{laws:false, mobile:false}" class="sticky top-0 z-40 border-b bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <a href="@Url.Content("~")"
-        class="flex items-center gap-2 font-bold text-lg tracking-tight text-brand hover:text-brandDark transition">
+         class="flex items-center gap-2 font-bold text-lg tracking-tight text-brand hover:text-brandDark transition">
         <img src="~/images/logo-cndes.png" alt="CNDES" style="height:40px;width:auto">
-
         <span style="color:#18A052;font-weight:700;letter-spacing:.2px;margin-left:.5rem;">
           ARCHIVO DIGITAL
         </span>
-
       </a>
 
       <!-- Desktop -->
@@ -38,30 +39,53 @@
           <button x-on:click="laws=!laws" class="inline-flex items-center gap-1 hover:text-brandDark transition">
             Leyes
             <svg class="w-4 h-4 opacity-70" viewBox="0 0 20 20" fill="currentColor">
-              <path
-                d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" />
+              <path d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" />
             </svg>
           </button>
           <div x-cloak x-show="laws" x-transition
-            class="absolute left-0 mt-2 w-64 rounded-xl border bg-white shadow-lg ring-1 ring-black/5 p-2">
+               class="absolute left-0 mt-2 w-64 rounded-xl border bg-white shadow-lg ring-1 ring-black/5 p-2">
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=ley">Ley</a>
-            <a class="block px-3 py-2 rounded-lg hover:bg-brand/5"
-              href="/docs?cat=leyes&type=decreto-ley">Decreto-ley</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=decreto-ley">Decreto-ley</a>
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=decreto">Decreto</a>
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=reglamento">Reglamento</a>
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=resolucion">Resolución</a>
           </div>
         </div>
 
-        <a class="hover:text-brandDark transition" href="/docs?cat=documentos-internos">Documentos Internos</a>
+        @* Documentos Internos solo Admin o Secretario *@
+        @if (User.IsInRole("Admin") || User.IsInRole("Secretario"))
+        {
+          <a class="hover:text-brandDark transition" href="/docs?cat=documentos-internos">Documentos Internos</a>
+        }
+
         <a class="hover:text-brandDark transition" href="/docs?cat=memorias-anuales">Memorias Anuales</a>
         <a class="hover:text-brandDark transition" href="/docs?cat=estudios">Estudios</a>
         <a class="hover:text-brandDark transition" href="/docs?cat=procedimientos">Procedimientos</a>
+
+        @* Menú Admin solo para Admin *@
+        @if (User.IsInRole("Admin"))
+        {
+          <a class="hover:text-brandDark transition" href="@Url.Action("Index","Admin")">Admin</a>
+        }
+
+        @* Login/Logout *@
+        @if (SignInManager.IsSignedIn(User))
+        {
+          <span class="text-slate-500">@(User.Identity?.Name)</span>
+          <form asp-controller="Account" asp-action="Logout" method="post" class="inline">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="px-3 py-1 rounded-lg border hover:bg-slate-50">Salir</button>
+          </form>
+        }
+        else
+        {
+          <a class="px-3 py-1 rounded-lg border hover:bg-slate-50" asp-controller="Account" asp-action="Login">Entrar</a>
+        }
       </nav>
 
       <!-- Mobile toggle -->
       <button class="md:hidden inline-flex items-center justify-center rounded-lg p-2 hover:bg-brand/10"
-        x-on:click="mobile=!mobile" aria-label="Abrir menú">
+              x-on:click="mobile=!mobile" aria-label="Abrir menú">
         <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none">
           <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
         </svg>
@@ -76,18 +100,41 @@
           <summary class="px-2 py-2 rounded-lg hover:bg-brand/5 cursor-pointer">Leyes</summary>
           <div class="mt-1 ml-3 space-y-1">
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=ley">Ley</a>
-            <a class="block px-3 py-2 rounded-lg hover:bg-brand/5"
-              href="/docs?cat=leyes&type=decreto-ley">Decreto-ley</a>
+            <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=decreto-ley">Decreto-ley</a>
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=decreto">Decreto</a>
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=reglamento">Reglamento</a>
             <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=leyes&type=resolucion">Resolución</a>
           </div>
         </details>
-        <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=documentos-internos">Documentos
-          Internos</a>
+
+        @if (User.IsInRole("Admin") || User.IsInRole("Secretario"))
+        {
+          <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=documentos-internos">Documentos Internos</a>
+        }
+
         <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=memorias-anuales">Memorias Anuales</a>
         <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=estudios">Estudios</a>
         <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="/docs?cat=procedimientos">Procedimientos</a>
+
+        @if (User.IsInRole("Admin"))
+        {
+          <a class="block px-3 py-2 rounded-lg hover:bg-brand/5" href="@Url.Action("Index","Admin")">Admin</a>
+        }
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+          <div class="flex items-center justify-between px-3 py-2">
+            <span class="text-slate-500">@(User.Identity?.Name)</span>
+            <form asp-controller="Account" asp-action="Logout" method="post" class="inline">
+              @Html.AntiForgeryToken()
+              <button type="submit" class="px-3 py-1 rounded-lg border hover:bg-slate-50">Salir</button>
+            </form>
+          </div>
+        }
+        else
+        {
+          <a class="block px-3 py-2 rounded-lg border hover:bg-slate-50" asp-controller="Account" asp-action="Login">Entrar</a>
+        }
       </div>
     </div>
   </header>

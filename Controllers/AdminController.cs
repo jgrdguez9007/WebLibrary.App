@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebLibrary.App.Services;
 using WebLibrary.App.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebLibrary.App.Controllers
 {
+    [Authorize(Policy = "PuedeSubirEliminar")]
     [Route("admin")]
     public class AdminController : Controller
     {
@@ -43,12 +45,12 @@ namespace WebLibrary.App.Controllers
         public IActionResult Index()
         {
             var filesDir = Path.Combine(_env.WebRootPath, "files");
-            var dataDir  = Path.Combine(_env.WebRootPath, "data");
+            var dataDir = Path.Combine(_env.WebRootPath, "data");
             Directory.CreateDirectory(filesDir);
             Directory.CreateDirectory(dataDir);
 
-            var pdfs  = Directory.GetFiles(filesDir, "*.pdf");
-            var jsons = Directory.GetFiles(dataDir,  "*.json");
+            var pdfs = Directory.GetFiles(filesDir, "*.pdf");
+            var jsons = Directory.GetFiles(dataDir, "*.json");
 
             double totalMb = pdfs.Sum(p => new FileInfo(p).Length) / (1024d * 1024d);
 
@@ -61,26 +63,26 @@ namespace WebLibrary.App.Controllers
                     if (dj == null) continue;
                     recent.Add(new UploadResultVm
                     {
-                        Title   = string.IsNullOrWhiteSpace(dj.Title) ? Path.GetFileNameWithoutExtension(jf) : dj.Title,
-                        PdfUrl  = dj.Source ?? "",
+                        Title = string.IsNullOrWhiteSpace(dj.Title) ? Path.GetFileNameWithoutExtension(jf) : dj.Title,
+                        PdfUrl = dj.Source ?? "",
                         JsonUrl = "/data/" + Path.GetFileName(jf),
-                        Date    = dj.Meta?.DetectedDate ?? System.IO.File.GetLastWriteTime(jf),
-                        Category= dj.Category ?? "",
-                        DocType = dj.DocType  ?? "",
-                        ThumbUrl= string.IsNullOrEmpty(dj.ThumbUrl) ? "/img/placeholder.svg" : dj.ThumbUrl
+                        Date = dj.Meta?.DetectedDate ?? System.IO.File.GetLastWriteTime(jf),
+                        Category = dj.Category ?? "",
+                        DocType = dj.DocType ?? "",
+                        ThumbUrl = string.IsNullOrEmpty(dj.ThumbUrl) ? "/img/placeholder.svg" : dj.ThumbUrl
                     });
                 }
                 catch
                 {
                     recent.Add(new UploadResultVm
                     {
-                        Title   = Path.GetFileNameWithoutExtension(jf),
-                        PdfUrl  = "",
+                        Title = Path.GetFileNameWithoutExtension(jf),
+                        PdfUrl = "",
                         JsonUrl = "/data/" + Path.GetFileName(jf),
-                        Date    = System.IO.File.GetLastWriteTime(jf),
-                        Category= "",
+                        Date = System.IO.File.GetLastWriteTime(jf),
+                        Category = "",
                         DocType = "",
-                        ThumbUrl= "/img/placeholder.svg"
+                        ThumbUrl = "/img/placeholder.svg"
                     });
                 }
             }
@@ -88,14 +90,42 @@ namespace WebLibrary.App.Controllers
 
             var vm = new AdminVm
             {
-                PdfCount      = pdfs.Length,
-                JsonCount     = jsons.Length,
-                TotalSizeMb   = Math.Round(totalMb, 2),
+                PdfCount = pdfs.Length,
+                JsonCount = jsons.Length,
+                TotalSizeMb = Math.Round(totalMb, 2),
                 LastProcessed = recent.FirstOrDefault()?.Date,
-                Recent        = recent
+                Recent = recent
             };
             return View(vm);
         }
+
+        [HttpPost("delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(string slug)
+        {
+            if (string.IsNullOrWhiteSpace(slug))
+            {
+                TempData["AdminMsg"] = "Slug vacío.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            var root = Directory.GetCurrentDirectory();
+            var paths = new[]
+            {
+        Path.Combine(root, "wwwroot", "files",  slug + ".pdf"),
+        Path.Combine(root, "wwwroot", "data",   slug + ".json"),
+        Path.Combine(root, "wwwroot", "thumbs", slug + ".png"),
+    };
+
+            foreach (var p in paths)
+            {
+                try { if (System.IO.File.Exists(p)) System.IO.File.Delete(p); } catch { /* silencioso */ }
+            }
+
+            TempData["AdminMsg"] = $"Eliminado: {slug}";
+            return RedirectToAction(nameof(Index));
+        }
+
 
         // ---------- POST HTML ----------
         [HttpPost("upload-form")]
@@ -105,8 +135,8 @@ namespace WebLibrary.App.Controllers
             if (file is null || file.Length == 0)
                 return View("Uploaded", new UploadResultVm { Title = "Archivo vacío" });
 
-            var filesDir  = Path.Combine(_env.WebRootPath, "files");
-            var dataDir   = Path.Combine(_env.WebRootPath, "data");
+            var filesDir = Path.Combine(_env.WebRootPath, "files");
+            var dataDir = Path.Combine(_env.WebRootPath, "data");
             var thumbsDir = Path.Combine(_env.WebRootPath, "thumbs");
             Directory.CreateDirectory(filesDir);
             Directory.CreateDirectory(dataDir);
@@ -118,18 +148,18 @@ namespace WebLibrary.App.Controllers
             var json = _ingest.ProcessPdf(full, dataDir, thumbsDir, category, docType);
 
             // Indexa inmediatamente
-            var key     = Path.GetFileNameWithoutExtension(full);
+            var key = Path.GetFileNameWithoutExtension(full);
             var jsonUrl = "/data/" + key + ".json";
             _index.Upsert(json, jsonUrl, key);
 
             return View("Uploaded", new UploadResultVm
             {
-                Title    = string.IsNullOrWhiteSpace(json.Title) ? key : json.Title,
-                PdfUrl   = json.Source,
-                JsonUrl  = jsonUrl,
-                Date     = json.Meta?.DetectedDate,
+                Title = string.IsNullOrWhiteSpace(json.Title) ? key : json.Title,
+                PdfUrl = json.Source,
+                JsonUrl = jsonUrl,
+                Date = json.Meta?.DetectedDate,
                 Category = json.Category,
-                DocType  = json.DocType,
+                DocType = json.DocType,
                 ThumbUrl = string.IsNullOrEmpty(json.ThumbUrl) ? "/img/placeholder.svg" : json.ThumbUrl
             });
         }
@@ -140,8 +170,8 @@ namespace WebLibrary.App.Controllers
         {
             if (file is null || file.Length == 0) return BadRequest("Archivo vacío.");
 
-            var filesDir  = Path.Combine(_env.WebRootPath, "files");
-            var dataDir   = Path.Combine(_env.WebRootPath, "data");
+            var filesDir = Path.Combine(_env.WebRootPath, "files");
+            var dataDir = Path.Combine(_env.WebRootPath, "data");
             var thumbsDir = Path.Combine(_env.WebRootPath, "thumbs");
             Directory.CreateDirectory(filesDir);
             Directory.CreateDirectory(dataDir);
@@ -152,7 +182,7 @@ namespace WebLibrary.App.Controllers
 
             var json = _ingest.ProcessPdf(full, dataDir, thumbsDir, category ?? "", docType ?? "");
 
-            var key     = Path.GetFileNameWithoutExtension(full);
+            var key = Path.GetFileNameWithoutExtension(full);
             var jsonUrl = "/data/" + key + ".json";
             _index.Upsert(json, jsonUrl, key);
 
@@ -166,14 +196,14 @@ namespace WebLibrary.App.Controllers
             var full = Path.Combine(_env.WebRootPath, "files", file);
             if (!System.IO.File.Exists(full)) return NotFound("No existe en /wwwroot/files");
 
-            var dataDir   = Path.Combine(_env.WebRootPath, "data");
+            var dataDir = Path.Combine(_env.WebRootPath, "data");
             var thumbsDir = Path.Combine(_env.WebRootPath, "thumbs");
             Directory.CreateDirectory(dataDir);
             Directory.CreateDirectory(thumbsDir);
 
             var json = _ingest.ProcessPdf(full, dataDir, thumbsDir, category ?? "", docType ?? "");
 
-            var key     = Path.GetFileNameWithoutExtension(full);
+            var key = Path.GetFileNameWithoutExtension(full);
             var jsonUrl = "/data/" + key + ".json";
             _index.Upsert(json, jsonUrl, key);
 

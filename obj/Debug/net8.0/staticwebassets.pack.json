@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Comité de Coordinación y Seguimiento[3].json",
+      "PackagePath": "staticwebassets\\data\\Comité de Coordinación y Seguimiento[3].json"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\DEF Estatuto personal  - copia.json",
       "PackagePath": "staticwebassets\\data\\DEF Estatuto personal  - copia.json"
     },
@@ -41,6 +45,10 @@
       "PackagePath": "staticwebassets\\data\\Hoja_de_Ruta_hacia._Final_con_arreglos_a_partir_de_sugerencias_de_los_Miembros_del_CNDES[1].json"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Ley Organica CNDES pdf.json",
+      "PackagePath": "staticwebassets\\data\\Ley Organica CNDES pdf.json"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.json",
       "PackagePath": "staticwebassets\\data\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.json"
     },
@@ -51,6 +59,10 @@
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Memoria Anual CNDES 2024.json",
       "PackagePath": "staticwebassets\\data\\Memoria Anual CNDES 2024.json"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN.json",
+      "PackagePath": "staticwebassets\\data\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN.json"
     },
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json",
@@ -85,6 +97,10 @@
       "PackagePath": "staticwebassets\\files\\Carátula desarrollo sostenible ECOSOC.pdf"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Comité de Coordinación y Seguimiento[3].pdf",
+      "PackagePath": "staticwebassets\\files\\Comité de Coordinación y Seguimiento[3].pdf"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\DEF Estatuto personal  - copia.pdf",
       "PackagePath": "staticwebassets\\files\\DEF Estatuto personal  - copia.pdf"
     },
@@ -117,6 +133,10 @@
       "PackagePath": "staticwebassets\\files\\Ley Fundamental GE PDF.pdf"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Ley Organica CNDES pdf.pdf",
+      "PackagePath": "staticwebassets\\files\\Ley Organica CNDES pdf.pdf"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.pdf",
       "PackagePath": "staticwebassets\\files\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.pdf"
     },
@@ -131,6 +151,10 @@
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf",
       "PackagePath": "staticwebassets\\files\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN.pdf",
+      "PackagePath": "staticwebassets\\files\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN.pdf"
     },
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Resumen Ejecutivo DEF.pdf",
@@ -397,6 +421,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\Comité de Coordinación y Seguimiento[3].png",
+      "PackagePath": "staticwebassets\\thumbs\\Comité de Coordinación y Seguimiento[3].png"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\DEF Estatuto personal  - copia.png",
       "PackagePath": "staticwebassets\\thumbs\\DEF Estatuto personal  - copia.png"
     },
@@ -421,6 +449,10 @@
       "PackagePath": "staticwebassets\\thumbs\\Hoja_de_Ruta_hacia._Final.png"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\Ley Organica CNDES pdf.png",
+      "PackagePath": "staticwebassets\\thumbs\\Ley Organica CNDES pdf.png"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.png",
       "PackagePath": "staticwebassets\\thumbs\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.png"
     },
@@ -431,6 +463,10 @@
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\Memoria Anual CNDES 2024.png",
       "PackagePath": "staticwebassets\\thumbs\\Memoria Anual CNDES 2024.png"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN.png",
+      "PackagePath": "staticwebassets\\thumbs\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN.png"
     },
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\thumbs\\Resumen Ejecutivo DEF.png",

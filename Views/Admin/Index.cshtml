@@ -7,7 +7,8 @@
   <div class="rounded-2xl bg-gradient-to-br from-slate-50 to-white ring-1 ring-black/5 p-8">
     <h1 class="text-3xl font-bold tracking-tight">Subir y procesar PDF</h1>
     <p class="mt-2 text-slate-600 max-w-2xl text-sm">
-      Carga un PDF, clasifícalo por <strong>categoría</strong> y <strong>tipo</strong>. El sistema extrae texto/OCR, genera un
+      Carga un PDF, clasifícalo por <strong>categoría</strong> y <strong>tipo</strong>. El sistema extrae texto/OCR,
+      genera un
       <strong>JSON</strong> y lo deja listo para búsqueda. También puedes reconstruir el índice cuando lo necesites.
     </p>
 
@@ -16,14 +17,12 @@
       <!-- Buscador rápido -->
       <form action="/search" method="get" class="flex gap-2">
         <input name="q" placeholder="Buscar rápido en la biblioteca…"
-               class="w-72 rounded-xl border border-slate-300 px-4 py-2 focus:ring-2 focus:ring-indigo-500" />
+          class="w-72 rounded-xl border border-slate-300 px-4 py-2 focus:ring-2 focus:ring-indigo-500" />
         <button class="rounded-xl bg-indigo-600 text-white px-4 py-2 hover:bg-indigo-700">Buscar</button>
       </form>
 
       <!-- Reconstruir índice (HTMX) -->
-      <button
-        class="rounded-xl border px-4 py-2 hover:bg-slate-50"
-        hx-post="/admin/rebuild-index" hx-swap="none"
+      <button class="rounded-xl border px-4 py-2 hover:bg-slate-50" hx-post="/admin/rebuild-index" hx-swap="none"
         hx-on::after-request="notice='Índice reconstruido correctamente'">
         Reconstruir índice
       </button>
@@ -31,46 +30,49 @@
       <!-- Aviso -->
       <template x-if="notice">
         <span class="text-sm text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-1"
-              x-text="notice" x-init="setTimeout(()=>notice='',2500)"></span>
+          x-text="notice" x-init="setTimeout(()=>notice='',2500)"></span>
       </template>
     </div>
   </div>
 
-  <!-- Stats -->
-  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-    <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-black/5">
-      <div class="text-2xl">📄</div>
-      <div class="mt-2 text-sm text-slate-500">PDFs subidos</div>
-      <div class="text-2xl font-semibold">@Model.PdfCount</div>
-    </div>
-    <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-black/5">
-      <div class="text-2xl">🧩</div>
-      <div class="mt-2 text-sm text-slate-500">JSON generados</div>
-      <div class="text-2xl font-semibold">@Model.JsonCount</div>
-    </div>
-    <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-black/5">
-      <div class="text-2xl">💾</div>
-      <div class="mt-2 text-sm text-slate-500">Tamaño total</div>
-      <div class="text-2xl font-semibold">@Model.TotalSizeMb MB</div>
-    </div>
-    <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-black/5">
-      <div class="text-2xl">⏱️</div>
-      <div class="mt-2 text-sm text-slate-500">Último procesado</div>
-      <div class="text-lg font-medium">@Model.LastProcessed?.ToString("yyyy-MM-dd HH:mm") ?? "—"</div>
+  <!-- MÉTRICAS EN TABLA -->
+  <div class="mb-6">
+    <div class="rounded-xl border bg-white overflow-hidden">
+      <table class="min-w-full text-sm">
+        <thead class="bg-slate-50 text-xs uppercase text-slate-500">
+          <tr>
+            <th class="px-4 py-2 text-left">PDFs subidos</th>
+            <th class="px-4 py-2 text-left">JSON generados</th>
+            <th class="px-4 py-2 text-left">Tamaño total</th>
+            <th class="px-4 py-2 text-left">Último procesado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-t">
+            <td class="px-4 py-3 font-semibold">@Model.PdfCount</td>
+            <td class="px-4 py-3 font-semibold">@Model.JsonCount</td>
+            <td class="px-4 py-3 font-semibold">@($"{Model.TotalSizeMb:0.##} MB")</td>
+            <td class="px-4 py-3 font-semibold">
+              @(Model.LastProcessed?.ToString("yyyy-MM-dd HH:mm") ?? "--")
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
+
 
   <!-- Formulario de carga -->
   <div class="rounded-2xl bg-white shadow-sm ring-1 ring-black/5 p-8">
     <h2 class="text-xl font-semibold">Nuevo documento</h2>
 
-    <form class="mt-6 space-y-5" method="post" action="/admin/upload-form" enctype="multipart/form-data" x-data="{cat:'leyes'}">
+    <form class="mt-6 space-y-5" method="post" action="/admin/upload-form" enctype="multipart/form-data"
+      x-data="{cat:'leyes'}">
       <div class="grid gap-4 sm:grid-cols-3">
         <!-- Categoría -->
         <div>
           <label class="text-sm font-medium">Categoría</label>
-          <select name="category" x-model="cat"
-                  class="mt-1 w-full rounded-xl border border-slate-300 p-2">
+          <select name="category" x-model="cat" class="mt-1 w-full rounded-xl border border-slate-300 p-2">
             <option value="leyes">Leyes</option>
             <option value="documentos-internos">Documentos Internos</option>
             <option value="memorias-anuales">Memorias Anuales</option>
@@ -84,11 +86,11 @@
           <label class="text-sm font-medium">Tipo</label>
           <select name="docType" class="mt-1 w-full rounded-xl border border-slate-300 p-2">
             <option value="">(general)</option>
-            <option value="ley"         x-show="cat=='leyes'">Ley</option>
+            <option value="ley" x-show="cat=='leyes'">Ley</option>
             <option value="decreto-ley" x-show="cat=='leyes'">Decreto-ley</option>
-            <option value="decreto"     x-show="cat=='leyes'">Decreto</option>
-            <option value="reglamento"  x-show="cat=='leyes'">Reglamento</option>
-            <option value="resolucion"  x-show="cat=='leyes'">Resolución</option>
+            <option value="decreto" x-show="cat=='leyes'">Decreto</option>
+            <option value="reglamento" x-show="cat=='leyes'">Reglamento</option>
+            <option value="resolucion" x-show="cat=='leyes'">Resolución</option>
           </select>
         </div>
 
@@ -96,7 +98,7 @@
         <div>
           <label class="text-sm font-medium">Archivo PDF</label>
           <input type="file" name="file" accept="application/pdf"
-                 class="mt-1 block w-full rounded-xl border border-slate-300 p-2" />
+            class="mt-1 block w-full rounded-xl border border-slate-300 p-2" />
         </div>
       </div>
 
@@ -117,11 +119,15 @@
       <h2 class="text-xl font-semibold">Recientes</h2>
       <a href="/docs" class="text-sm text-indigo-600 hover:text-indigo-700">Ver todos ›</a>
     </div>
-    @if (Model.Recent.Count == 0) {
+    @if (Model.Recent.Count == 0)
+    {
       <p class="mt-3 text-sm text-slate-600">Aún no hay documentos procesados.</p>
-    } else {
+    }
+    else
+    {
       <ul class="mt-4 divide-y">
-        @foreach (var r in Model.Recent) {
+        @foreach (var r in Model.Recent)
+        {
           <li class="py-3 flex items-center justify-between gap-3">
             <div class="flex items-center gap-3">
               <div class="w-12 h-16 bg-slate-100 border rounded-md overflow-hidden grid place-items-center">
@@ -133,11 +139,34 @@
               </div>
             </div>
             <div class="flex gap-2">
-              @if(!string.IsNullOrEmpty(r.PdfUrl)){
+              @if (!string.IsNullOrEmpty(r.PdfUrl))
+              {
                 <a class="rounded-lg border px-3 py-1.5 text-sm hover:bg-slate-50" href="@r.PdfUrl" target="_blank">PDF</a>
               }
               <a class="rounded-lg border px-3 py-1.5 text-sm hover:bg-slate-50" href="@r.JsonUrl" target="_blank">JSON</a>
+
+              @{
+                // Derivar slug solo desde la URL disponible, sin usar r.Slug
+                var src = !string.IsNullOrEmpty(r.JsonUrl) ? r.JsonUrl : (r.PdfUrl ?? "");
+                var slash = src?.LastIndexOf('/') ?? -1;
+                var file = slash >= 0 ? src.Substring(slash + 1) : src;
+                var slug = string.IsNullOrEmpty(file) ? "" :
+                (file.EndsWith(".json", StringComparison.OrdinalIgnoreCase) ? file[..^5] :
+                (file.EndsWith(".pdf", StringComparison.OrdinalIgnoreCase) ? file[..^4] : file));
+              }
+              @if (!string.IsNullOrWhiteSpace(slug))
+              {
+                <form asp-controller="Admin" asp-action="Delete" method="post" class="inline"
+                  onsubmit="return confirm('¿Eliminar este documento y su JSON y miniatura?');">
+                  @Html.AntiForgeryToken()
+                  <input type="hidden" name="slug" value="@slug" />
+                  <button type="submit" class="rounded-lg px-3 py-1.5 text-sm text-white" style="background:#dc2626;">
+                    Eliminar
+                  </button>
+                </form>
+              }
             </div>
+
           </li>
         }
       </ul>
