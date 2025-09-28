@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets\\files\\Resumen Ejecutivo DEF.pdf"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\img\\logo-cndes.png",
+      "PackagePath": "staticwebassets\\img\\logo-cndes.png"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\img\\placeholder.svg",
       "PackagePath": "staticwebassets\\img\\placeholder.svg"
     },
