@@ -1,48 +1,107 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿/* Estilos base de layout, adaptados al verde institucional CNDES */
 
+/* Marca */
 a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 600;
+  color: #18A052;
+  /* verde brand */
 }
 
+/* Links */
 a {
-  color: #0077cc;
+  color: #18A052;
+  transition: color .2s ease-in-out;
 }
 
+a:hover {
+  color: #117A40;
+  /* verde más oscuro */
+}
+
+/* Botón principal */
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #18A052;
+  border-color: #117A40;
+  transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.btn-primary:hover {
+  background-color: #117A40;
+  border-color: #0e5c32;
+}
+
+/* Nav pills activos */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #18A052;
+  border-color: #117A40;
 }
 
+/* Bordes */
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
 
+/* Sombras */
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
+/* Botón cookies/policy */
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
+  background: #18A052;
+  color: #fff;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: .375rem;
 }
 
+button.accept-policy:hover {
+  background: #117A40;
+}
+
+/* Footer */
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  color: #6b7280;
+  /* gris neutro Tailwind slate-500 */
+  font-size: .875rem;
 }
+
+
+/* Logo pequeño y limpio sobre barra blanca */
+/* Tamaño fijo del logo en la barra */
+.logo-cndes {
+  height: 28px;
+  max-height: 28px;
+  width: auto;
+  display: block;
+  object-fit: contain
+}
+
+@media (min-width:768px) {
+  header .logo-cndes {
+    height: 32px;
+    max-height: 32px
+  }
+}
+
+

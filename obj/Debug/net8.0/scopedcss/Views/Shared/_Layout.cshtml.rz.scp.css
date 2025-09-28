@@ -1,48 +1,107 @@
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+/* Estilos base de layout, adaptados al verde institucional CNDES */
 
+/* Marca */
 a.navbar-brand[b-xiic21tj65] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 600;
+  color: #18A052;
+  /* verde brand */
 }
 
+/* Links */
 a[b-xiic21tj65] {
-  color: #0077cc;
+  color: #18A052;
+  transition: color .2s ease-in-out;
 }
 
+a:hover[b-xiic21tj65] {
+  color: #117A40;
+  /* verde más oscuro */
+}
+
+/* Botón principal */
 .btn-primary[b-xiic21tj65] {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #18A052;
+  border-color: #117A40;
+  transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
 }
 
-.nav-pills .nav-link.active[b-xiic21tj65], .nav-pills .show > .nav-link[b-xiic21tj65] {
+.btn-primary:hover[b-xiic21tj65] {
+  background-color: #117A40;
+  border-color: #0e5c32;
+}
+
+/* Nav pills activos */
+.nav-pills .nav-link.active[b-xiic21tj65],
+.nav-pills .show>.nav-link[b-xiic21tj65] {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #18A052;
+  border-color: #117A40;
 }
 
+/* Bordes */
 .border-top[b-xiic21tj65] {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-xiic21tj65] {
   border-bottom: 1px solid #e5e5e5;
 }
 
+/* Sombras */
 .box-shadow[b-xiic21tj65] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
+/* Botón cookies/policy */
 button.accept-policy[b-xiic21tj65] {
   font-size: 1rem;
   line-height: inherit;
+  background: #18A052;
+  color: #fff;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: .375rem;
 }
 
+button.accept-policy:hover[b-xiic21tj65] {
+  background: #117A40;
+}
+
+/* Footer */
 .footer[b-xiic21tj65] {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  color: #6b7280;
+  /* gris neutro Tailwind slate-500 */
+  font-size: .875rem;
 }
+
+
+/* Logo pequeño y limpio sobre barra blanca */
+/* Tamaño fijo del logo en la barra */
+.logo-cndes[b-xiic21tj65] {
+  height: 28px;
+  max-height: 28px;
+  width: auto;
+  display: block;
+  object-fit: contain
+}
+
+@media (min-width:768px) {
+  header .logo-cndes[b-xiic21tj65] {
+    height: 32px;
+    max-height: 32px
+  }
+}
+
+

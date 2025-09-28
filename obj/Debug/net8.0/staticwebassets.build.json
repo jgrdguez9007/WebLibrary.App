@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m8JBLuFK4Z5C81J4HfLs8IFI3AJtAyqq0WGZFujo7WU=",
+  "Hash": "Qj1xqKI5aIrzejLsy04q0XkbURsdtNrFn6qdJZge37E=",
   "Source": "WebLibrary.App",
   "BasePath": "_content/WebLibrary.App",
   "Mode": "Default",
@@ -511,12 +511,12 @@
       "OriginalItemSpec": "wwwroot\\files\\Resumen Ejecutivo DEF.pdf"
     },
     {
-      "Identity": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\img\\logo-cndes.png",
+      "Identity": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\images\\logo-cndes.png",
       "SourceId": "WebLibrary.App",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\",
       "BasePath": "_content/WebLibrary.App",
-      "RelativePath": "img/logo-cndes.png",
+      "RelativePath": "images/logo-cndes.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -527,15 +527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo-cndes.png"
+      "OriginalItemSpec": "wwwroot\\images\\logo-cndes.png"
     },
     {
-      "Identity": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\img\\placeholder.svg",
+      "Identity": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\images\\placeholder.svg",
       "SourceId": "WebLibrary.App",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\",
       "BasePath": "_content/WebLibrary.App",
-      "RelativePath": "img/placeholder.svg",
+      "RelativePath": "images/placeholder.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -546,7 +546,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\placeholder.svg"
+      "OriginalItemSpec": "wwwroot\\images\\placeholder.svg"
     },
     {
       "Identity": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\js\\site.js",
