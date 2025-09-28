@@ -1,7 +1,38 @@
 @model WebLibrary.App.Controllers.SearchController.SearchVm
+@using System.Text.RegularExpressions
+@using System.Net
+
 @{
   ViewData["Title"] = "Buscar";
 }
+
+@functions {
+  // Resalta términos (>=3 chars) de la consulta dentro de un texto.
+  // Primero codifica HTML para seguridad; luego inserta <strong> sobre coincidencias.
+  public static string Highlight(string? text, string? query)
+  {
+    text ??= "";
+    query ??= "";
+    var encoded = WebUtility.HtmlEncode(text);
+    if (string.IsNullOrWhiteSpace(query)) return encoded;
+
+    var terms = Regex.Matches(query, @"[\p{L}\p{Nd}]{3,}")
+                     .Cast<Match>()
+                     .Select(m => Regex.Escape(m.Value))
+                     .Distinct()
+                     .ToArray();
+    if (terms.Length == 0) return encoded;
+
+    var pattern = string.Join("|", terms);
+    return Regex.Replace(
+      encoded,
+      pattern,
+      m => $"<strong>{m.Value}</strong>",
+      RegexOptions.IgnoreCase | RegexOptions.CultureInvariant
+    );
+  }
+}
+
 <section class="space-y-8">
   <!-- Buscador -->
   <form method="get" action="/search" class="flex gap-2">
@@ -34,6 +65,16 @@
     <ul class="space-y-5">
       @foreach (var r in Model.Results)
       {
+        // --- Normalización de páginas (fallback para JSON antiguos base-0) ---
+        var pStart = (r.PageStart <= 0 || r.PageEnd <= 0) ? r.PageStart + 1 : r.PageStart;
+        var pEnd   = (r.PageStart <= 0 || r.PageEnd <= 0) ? r.PageEnd + 1   : r.PageEnd;
+        if (pStart < 1) pStart = 1;
+        if (pEnd   < pStart) pEnd = pStart;
+
+        var pdfTarget = !string.IsNullOrEmpty(r.PdfUrl)
+                        ? $"{r.PdfUrl}#page={Math.Max(1, pStart)}"
+                        : "";
+
         <li class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
           <div class="flex gap-4">
             <div class="hidden sm:grid place-items-center w-24 h-24 bg-slate-100 rounded-lg overflow-hidden">
@@ -43,24 +84,33 @@
               <div class="text-[11px] uppercase tracking-wide text-slate-500">
                 @(string.IsNullOrEmpty(r.Category) ? "" : r.Category.Replace("-", " "))
                 @(string.IsNullOrEmpty(r.DocType) ? "" : " · " + r.DocType.Replace("-", " "))
-                @(r.PageStart>0 ? $" · p.{r.PageStart}-{r.PageEnd}" : "")
+                @(pStart>0 ? $" · p.{pStart}-{pEnd}" : "")
               </div>
+
               <h3 class="mt-0.5 font-semibold">
-                @r.Title
+                @Html.Raw(Highlight(r.Title, Model.Q))
                 <span class="ml-2 align-middle text-[10px] text-slate-400">(@Math.Round(r.Score,2))</span>
               </h3>
+
               @if (!string.IsNullOrWhiteSpace(r.Excerpt))
               {
-                <p class="mt-2 text-sm text-slate-700">@r.Excerpt</p>
+                <p class="mt-2 text-sm text-slate-700">
+                  @Html.Raw(Highlight(r.Excerpt, Model.Q))
+                </p>
               }
-              <div class="mt-3 flex items-center gap-2">
-                @if (!string.IsNullOrEmpty(r.PdfUrl))
+
+              <div class="mt-3">
+                @if (!string.IsNullOrEmpty(pdfTarget))
                 {
-                  <a href="@r.PdfUrl" target="_blank"
-                     class="rounded-lg bg-slate-900 text-white px-3 py-1.5 text-sm hover:bg-slate-700">Ver PDF</a>
+                  <a href="@pdfTarget" target="_blank"
+                     class="rounded-lg bg-slate-900 text-white px-3 py-1.5 text-sm hover:bg-slate-700">
+                    Ver PDF
+                  </a>
                 }
-                <a href="@r.JsonUrl" target="_blank"
-                   class="rounded-lg border px-3 py-1.5 text-sm hover:bg-slate-50">JSON</a>
+                else
+                {
+                  <span class="text-xs text-slate-500">PDF no disponible</span>
+                }
               </div>
             </div>
           </div>

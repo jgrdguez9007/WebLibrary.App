@@ -1,0 +1,493 @@
+[2025-09-28T20:22:00.8465914Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:00.9293263Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:00.9871857Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.0403834Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.1073026Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.2073989Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.3229286Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.4920837Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.6504953Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.7174302Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.7683689Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:01.8254081Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:04.9635444Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.0344423Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.0407747Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.0457634Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.0845376Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.0875957Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.1519736Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.1919862Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.2171887Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.2203323Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.2262148Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.2299926Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.2505531Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.2932967Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.2943480Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.3085528Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.3100429Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.3139600Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.3197675Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.3211749Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.3229634Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.3255611Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.3370900Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.3388207Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.3446535Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.3484534Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.3619415Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.3731651Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.3756919Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.3919284Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.3955563Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.3970557Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.4046813Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:05.4051927Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.4152012Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.4165369Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.4204572Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.4530874Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.4779612Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.4899083Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.5231062Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.5247432Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.5700849Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.5815747Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:05.6250104Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:05.6562476Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:05.6585117Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:05.7049431Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:05.7335415Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:05.8811481Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:06.0303669Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:07.0934281Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:07.2250620Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:07.2378986Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:07.2778514Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:07.2817573Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:07.3286177Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:07.3391748Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:07.4932753Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:07.5095474Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:07.5492381Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:07.5583115Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:07.6086783Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:07.7202598Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:07.7389916Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:07.8331516Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:07.8347962Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:07.8981402Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:07.9615602Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:08.0372847Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:08.1859154Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:08.1869930Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:08.2275746Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:08.2886370Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:08.3536344Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:08.3871935Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:08.3889355Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:08.4291360Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:08.4511637Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:08.6122506Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:08.6638779Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:09.6416916Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:09.8535810Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:10.0190550Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:10.0320752Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:10.0564994Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:10.0563368Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:10.0577191Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:10.0746979Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:10.0764672Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:10.0950602Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:10.0962979Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:10.1094728Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:10.1350258Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:10.1427879Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:10.1453711Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:10.3053227Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:10.3283623Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:10.3746267Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:10.3774269Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:10.4309891Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:10.5155841Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:10.6382375Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:10.6405420Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:10.6836061Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:11.1522091Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:11.1541568Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:11.1730226Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:11.1966174Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:11.1975857Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:11.2072345Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:11.2082146Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:11.2190285Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:11.2244855Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:11.2427963Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:11.2517284Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:11.2614665Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:11.2690887Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:11.4058076Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:11.4963104Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:11.5343402Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:11.5373666Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:11.5828431Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:11.6137867Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:11.6181366Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:11.6512758Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:11.6525106Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:11.7026406Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:11.7846127Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:11.9572988Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:12.3389840Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:12.4203825Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:12.4580610Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:12.4591128Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:12.4917007Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:12.5195986Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:12.7057108Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:12.7390105Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:12.8075030Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:12.8086075Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:12.8644496Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:12.8925445Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:12.9039211Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:12.9370465Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:12.9568891Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:13.0046177Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:13.0910150Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:13.1284492Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:13.4381210Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:13.4396712Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:13.4754506Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:13.6783746Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:13.9382719Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:14.1966487Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:14.4858152Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:14.6355267Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:14.6365508Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:14.7077708Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:14.7216176Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:14.7878801Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:14.7938971Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:14.8016985Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:14.8448986Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:14.8458957Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:14.8783075Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:14.9226078Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:14.9938290Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:15.0570052Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:15.0588233Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:15.1003834Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:15.1225981Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:15.1544249Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:15.1573059Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:15.2345644Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:15.2952543Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:15.3591612Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:15.3602966Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:15.4344301Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:15.4608199Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:15.4951259Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:15.5152058Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:15.5218026Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:15.6731800Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:15.7711431Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:15.8444345Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:15.8937000Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:15.9202126Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:15.9214832Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:15.9989194Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:16.0016341Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:16.0097831Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:16.0456830Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:16.0475032Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:16.0488251Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:16.0497797Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:16.1010054Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:16.1161637Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:16.1273774Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:16.1348884Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:16.2260287Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:16.2397137Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:16.2924456Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:16.2934827Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:16.2990114Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:16.2998465Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:16.3647592Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:16.4341699Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:16.4799606Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:16.4817377Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:16.5364078Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:16.9808539Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:17.1920253Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:17.3270994Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:17.3721916Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:17.3745410Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:17.3763236Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:17.4279609Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:17.5454032Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:17.5907170Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:17.5917422Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:17.6451462Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:17.6577865Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:17.6671631Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:17.7075656Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:17.7096376Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:17.7765846Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:17.7865067Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:17.8116075Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:17.8486619Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:17.8542784Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:17.8650264Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:17.9169077Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:17.9185211Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:17.9328198Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:17.9866768Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:18.4682321Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:18.5135556Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:18.5147728Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:18.5632247Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:18.6247502Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:18.6820466Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:18.6837232Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:18.7302355Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:18.7738463Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:18.8120960Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:18.8136408Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:18.8555352Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:18.9474852Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:18.9792903Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:18.9805958Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:18.9885578Z] Pages after extract/OCR: 119
+[2025-09-28T20:22:19.0178425Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:22:19.0181545Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:19.0189818Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:19.0474254Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:22:25.6574090Z] ProcessPdf: 'proyecto agricola'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto agricola.PDF
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:22:25.7780904Z] Pages after extract/OCR: 36
+[2025-09-28T20:22:25.7822056Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto agricola.PDF" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\proyecto_agricola"
+[2025-09-28T20:22:25.7831873Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:22:25.7885889Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\proyecto_agricola.json
+[2025-09-28T20:24:37.8631659Z] ProcessPdf: 'PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:24:38.0752996Z] Pages after extract/OCR: 119
+[2025-09-28T20:24:38.0853498Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada"
+[2025-09-28T20:24:38.0870113Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:24:38.0991358Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json
+[2025-09-28T20:24:53.0421132Z] ProcessPdf: 'proyecto agricola'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto agricola.PDF
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:24:53.1164951Z] Pages after extract/OCR: 36
+[2025-09-28T20:24:53.1205405Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto agricola.PDF" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\proyecto_agricola"
+[2025-09-28T20:24:53.1225004Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:24:53.1301675Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\proyecto_agricola.json
+[2025-09-28T20:32:53.6650079Z] ProcessPdf: 'proyecto-agricola'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:32:53.7306235Z] Pages after extract/OCR: 36
+[2025-09-28T20:32:53.7349101Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\proyecto-agricola"
+[2025-09-28T20:32:53.7363249Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:32:53.7422428Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\proyecto-agricola.json
+[2025-09-28T20:33:30.8727442Z] ProcessPdf: 'proyecto-agricola'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:33:30.9300033Z] Pages after extract/OCR: 36
+[2025-09-28T20:33:30.9332217Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\proyecto-agricola"
+[2025-09-28T20:33:30.9342619Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:33:30.9381823Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\proyecto-agricola.json
+[2025-09-28T20:33:31.2182135Z] ProcessPdf: 'proyecto-agricola'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:33:31.2897817Z] Pages after extract/OCR: 36
+[2025-09-28T20:33:31.2982356Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\proyecto-agricola"
+[2025-09-28T20:33:31.3006976Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:33:31.3061888Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\proyecto-agricola.json
+[2025-09-28T20:33:58.5414770Z] ProcessPdf: 'hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:33:58.6359457Z] Pages after extract/OCR: 55
+[2025-09-28T20:33:58.6405813Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1"
+[2025-09-28T20:33:58.6417582Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:33:58.6489287Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.json
+[2025-09-28T20:36:50.1454941Z] ProcessPdf: 'proyecto-agricola'
+- pdfPath: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf
+- dataOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data
+- thumbsOut: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs
+[2025-09-28T20:36:50.2201925Z] Pages after extract/OCR: 36
+[2025-09-28T20:36:50.2230023Z] RUN: C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe -png -singlefile -f 1 -l 1 -scale-to 480 -cropbox "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\files\proyecto-agricola.pdf" "C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\thumbs\proyecto-agricola"
+[2025-09-28T20:36:50.2244804Z] WARN: Thumbnail generation failed: An error occurred trying to start process 'C:\Users\JGR\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_xxx\Release-25.07.0-0\Library\bin\pdftoppm.exe' with working directory 'C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App'. El sistema no puede encontrar el archivo especificado.
+[2025-09-28T20:36:50.2295396Z] JSON written: C:\Users\JGR\OneDrive\Proyectos Programación\WebLibrary.App\wwwroot\data\proyecto-agricola.json

@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\data\\Hoja_de_Ruta_hacia._Final.json"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Hoja_de_Ruta_hacia._Final_con_arreglos_a_partir_de_sugerencias_de_los_Miembros_del_CNDES[1].json",
+      "PackagePath": "staticwebassets\\data\\Hoja_de_Ruta_hacia._Final_con_arreglos_a_partir_de_sugerencias_de_los_Miembros_del_CNDES[1].json"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.json",
       "PackagePath": "staticwebassets\\data\\Ley Organica CNDES pdf_Comprimir por lotes_OCR.json"
     },
@@ -49,12 +53,36 @@
       "PackagePath": "staticwebassets\\data\\Memoria Anual CNDES 2024.json"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json",
+      "PackagePath": "staticwebassets\\data\\PROPUESTA_DE_PROYECTOS_DE_DIVERSIFICACIÓN_sin_portada.json"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\Resumen Ejecutivo DEF.json",
       "PackagePath": "staticwebassets\\data\\Resumen Ejecutivo DEF.json"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.json",
+      "PackagePath": "staticwebassets\\data\\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.json"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\proyecto agricola_OCR.json",
+      "PackagePath": "staticwebassets\\data\\proyecto agricola_OCR.json"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\proyecto-agricola.json",
+      "PackagePath": "staticwebassets\\data\\proyecto-agricola.json"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\data\\proyecto_agricola.json",
+      "PackagePath": "staticwebassets\\data\\proyecto_agricola.json"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Carátula desarrollo sostenible ECOSOC.pdf",
+      "PackagePath": "staticwebassets\\files\\Carátula desarrollo sostenible ECOSOC.pdf"
     },
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\DEF Estatuto personal  - copia.pdf",
@@ -81,6 +109,10 @@
       "PackagePath": "staticwebassets\\files\\Hoja_de_Ruta_hacia._Final.pdf"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Hoja_de_Ruta_hacia._Final_con_arreglos_a_partir_de_sugerencias_de_los_Miembros_del_CNDES[1].pdf",
+      "PackagePath": "staticwebassets\\files\\Hoja_de_Ruta_hacia._Final_con_arreglos_a_partir_de_sugerencias_de_los_Miembros_del_CNDES[1].pdf"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Ley Fundamental GE PDF.pdf",
       "PackagePath": "staticwebassets\\files\\Ley Fundamental GE PDF.pdf"
     },
@@ -97,8 +129,32 @@
       "PackagePath": "staticwebassets\\files\\Memoria Anual CNDES 2024.pdf"
     },
     {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf",
+      "PackagePath": "staticwebassets\\files\\PROPUESTA DE PROYECTOS DE DIVERSIFICACIÓN sin portada.pdf"
+    },
+    {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\Resumen Ejecutivo DEF.pdf",
       "PackagePath": "staticwebassets\\files\\Resumen Ejecutivo DEF.pdf"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.pdf",
+      "PackagePath": "staticwebassets\\files\\hoja-de-ruta-hacia-final-con-arreglos-a-partir-de-sugerencias-de-los-miembros-del-cndes-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\informe desarrollo sostenible ECOSOC.pdf",
+      "PackagePath": "staticwebassets\\files\\informe desarrollo sostenible ECOSOC.pdf"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\proyecto agricola.PDF",
+      "PackagePath": "staticwebassets\\files\\proyecto agricola.PDF"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\proyecto agricola_OCR.PDF",
+      "PackagePath": "staticwebassets\\files\\proyecto agricola_OCR.PDF"
+    },
+    {
+      "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\files\\proyecto-agricola.pdf",
+      "PackagePath": "staticwebassets\\files\\proyecto-agricola.pdf"
     },
     {
       "Id": "C:\\Users\\JGR\\OneDrive\\Proyectos Programación\\WebLibrary.App\\wwwroot\\images\\logo-cndes.png",

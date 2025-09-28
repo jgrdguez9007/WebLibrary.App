@@ -46,15 +46,14 @@ namespace WebLibrary.App.Services
         c.Summary  = _sum.Summarize(c.Text, 3);
       }
 
-      // 3) Miniatura (1ª página) tamaño reducido, proporción intacta
-      var prefix    = Path.Combine(thumbsOutDir, title); // genera {title}.png
+      // 3) Miniatura (1ª página) → wwwroot/thumbs/{title}.png
+      var prefix    = Path.Combine(thumbsOutDir, title);
       var thumbPath = prefix + ".png";
       try
       {
         if (File.Exists(thumbPath)) File.Delete(thumbPath);
-        // -scale-to 480 = ancho/alto máx 480px manteniendo proporción
-        // -cropbox usa el área útil para evitar bordes enormes
-        Run("pdftoppm", $"-png -singlefile -f 1 -l 1 -scale-to 480 -cropbox \"{pdfPath}\" \"{prefix}\"");
+        // -scale-to 480 = lado mayor 480px, mantiene proporción. -cropbox para evitar bordes.
+        Run(ResolveTool("pdftoppm"), $"-png -singlefile -f 1 -l 1 -scale-to 480 -cropbox \"{pdfPath}\" \"{prefix}\"");
       }
       catch { /* no-op */ }
       var thumbUrl = File.Exists(thumbPath) ? $"/thumbs/{title}.png" : "/img/placeholder.svg";
@@ -101,14 +100,14 @@ namespace WebLibrary.App.Services
       Directory.CreateDirectory(tmp);
 
       // PDF -> PNGs (300 dpi)
-      Run("pdftoppm", $"-png -r 300 \"{pdfPath}\" \"{Path.Combine(tmp, "p")}\"");
+      Run(ResolveTool("pdftoppm"), $"-png -r 300 \"{pdfPath}\" \"{Path.Combine(tmp, "p")}\"");
       var pngs = Directory.GetFiles(tmp, "p-*.png").OrderBy(f => f).ToList();
 
       // OCR por página (spa+eng)
       var pages = new List<string>();
       foreach (var img in pngs)
       {
-        var txt = Run("tesseract", $"\"{img}\" stdout -l spa+eng");
+        var txt = Run(ResolveTool("tesseract"), $"\"{img}\" stdout -l spa+eng");
         pages.Add(txt);
       }
 
@@ -130,6 +129,63 @@ namespace WebLibrary.App.Services
       var stderr = p.StandardError.ReadToEnd();
       p.WaitForExit();
       return string.IsNullOrWhiteSpace(stdout) ? stderr : stdout;
+    }
+
+    // Localiza ejecutables en Windows sin depender del PATH
+    private static string ResolveTool(string tool)
+    {
+      var isWin = OperatingSystem.IsWindows();
+      var exe = isWin ? tool + ".exe" : tool;
+
+      // 1) Variables de entorno explícitas
+      if (tool.Equals("pdftoppm", StringComparison.OrdinalIgnoreCase))
+      {
+        var poppler = Environment.GetEnvironmentVariable("POPPLER_BIN");
+        if (!string.IsNullOrWhiteSpace(poppler))
+        {
+          var p = Path.Combine(poppler, exe);
+          if (File.Exists(p)) return p;
+        }
+      }
+      if (tool.Equals("tesseract", StringComparison.OrdinalIgnoreCase))
+      {
+        var tess = Environment.GetEnvironmentVariable("TESSERACT_PATH");
+        if (!string.IsNullOrWhiteSpace(tess))
+        {
+          var p = Path.Combine(tess, exe);
+          if (File.Exists(p)) return p;
+        }
+      }
+
+      // 2) Rutas típicas winget/choco
+      var candidates = new List<string>();
+      if (isWin)
+      {
+        var local = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+        // Poppler (winget)
+        candidates.AddRange(Directory.Exists(local)
+          ? Directory.GetDirectories(Path.Combine(local, "Microsoft", "WinGet", "Packages"))
+            .Where(d => d.Contains("Poppler", StringComparison.OrdinalIgnoreCase))
+            .SelectMany(d => new[]
+            {
+              Path.Combine(d, "Release-64bit", "Library", "bin", exe),
+              Path.Combine(d, "Release-0.68.0", "bin", exe)
+            })
+          : Enumerable.Empty<string>());
+
+        // Poppler (choco)
+        candidates.Add(Path.Combine("C:\\ProgramData\\chocolatey\\lib\\poppler\\tools", exe));
+
+        // Tesseract (standard)
+        candidates.Add(Path.Combine("C:\\Program Files\\Tesseract-OCR", exe));
+        candidates.Add(Path.Combine("C:\\Program Files (x86)\\Tesseract-OCR", exe));
+      }
+
+      foreach (var p in candidates.Distinct())
+        if (File.Exists(p)) return p;
+
+      // 3) Fallback: confía en PATH
+      return exe;
     }
 
     private static List<Chunk> Chunk(List<string> pages, int chunkSize)
